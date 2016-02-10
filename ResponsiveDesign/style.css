@@ -1,0 +1,81 @@
+.container {
+  overflow: hidden;
+  font-family: "Verdana";
+}
+
+h1 {
+  background : gray;
+  color: white;
+  padding: 10px;
+  margin: 2px;
+}
+
+body {
+  background : white;
+}
+
+.menu{
+  width: 15%;
+  display: inline-block;
+  float: left;
+}
+
+ul{
+  padding: 0;
+}
+
+.menu ul li{
+  background: skyblue;
+  color: white;
+  padding: 1px;
+  padding-left: 1em;
+  margin: 2px;
+  list-style:none
+}
+
+.content {
+  width: 70%;
+  float: left;
+  padding: 0 2%;
+  line-height: 2em;
+  text-align: justify;
+}
+
+.content p {
+  font-size: 25px;
+}
+
+.imgzone{
+  position: relative;
+  min-height: 300px;
+  text-align: center;
+}
+
+.box{
+  height: 300px;
+  width: 400px;
+  background: white;
+  float: left;
+  margin: 1em;
+}
+
+.box img{
+  height: 300px;
+  width: 400px;
+}
+.box1 {
+  top: 0;
+  left: 0;
+}
+.box2 {
+  top: 0;
+  left: 0;
+}
+.box3 {
+  top: 0;
+  left: 0;
+}
+.box4 {
+  top: 0;
+  left: 0;
+}
